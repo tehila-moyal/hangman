@@ -1,0 +1,278 @@
+body {
+    background-image: url(/css/pexels-photo-278881.jpeg);
+}
+
+.theMan {
+    border: solid;
+    height: 352px;
+    width: 200px;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    background-color: rgba(235, 204, 149, 0.845);
+
+}
+
+.start {
+    display: flex;
+    background-color: rgba(235, 204, 149, 0.845);
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.start>p {
+    font-size: 30px;
+
+}
+
+.start>h1 {
+    font-size: 60px;
+
+}
+
+.head {
+    height: 50px;
+    width: 50px;
+    border: solid black;
+    border-radius: 100%;
+    position: absolute;
+    left: 41%;
+    top: 21%;
+}
+
+.hend1 {
+    transform: rotate(231deg);
+    border: solid black;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    top: 34%;
+    left: 43%;
+
+
+
+}
+
+.hend2 {
+    transform: rotate(-231deg);
+    border: solid black;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    top: 34%;
+    left: 65%;
+
+}
+
+.body1 {
+    border: solid black;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    top: 36%;
+    left: 54%;
+
+
+
+}
+
+.leg1 {
+    transform: rotate(231deg);
+    border: solid black;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    top: 48%;
+    left: 44%;
+
+
+
+}
+
+.leg2 {
+    transform: rotate(-231deg);
+    border: solid black;
+    height: 50px;
+    width: 0px;
+    position: absolute;
+    top: 48%;
+    left: 65%;
+
+
+}
+
+.poll {
+    border: solid black;
+    height: 300px;
+    width: 0px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+
+}
+
+.poll1 {
+    border: solid black;
+    height: 27px;
+    width: 0px;
+    position: absolute;
+    top: 12%;
+    left: 53%;
+}
+
+.poll2 {
+    border: solid black;
+    height: 100px;
+    width: 0px;
+    position: absolute;
+    top: 81%;
+    left: 26%;
+    transform: rotate(91deg);
+}
+
+.poll3 {
+    border: solid black;
+    height: 87px;
+    width: 0px;
+    position: absolute;
+    top: -2%;
+    left: 32%;
+    transform: rotate(91deg);
+}
+
+.wrong {
+    border: solid;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 2%;
+    top: 60%;
+    background-color: rgba(235, 204, 149, 0.845);
+    font-size: 40px;
+
+
+}
+
+.sentence {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    left: 49%;
+    top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(235, 204, 149, 0.845);
+
+}
+
+.letter {
+    height: 35px;
+    width: 30px;
+    margin: 10px;
+    position: relative;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.453);
+    color: white;
+
+
+}
+
+.guess {
+    border: solid;
+    height: 40px;
+    width: 30px;
+    position: relative;
+    display: flex;
+    margin: 7px;
+    font-size: 30px;
+
+}
+
+.keybord {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    left: 49%;
+    top: 45%;
+    border: solid;
+    background-color: rgba(235, 204, 149, 0.845);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hide {
+    display: none;
+}
+
+
+.blockword {
+    cursor: not-allowed;
+    background-color: rgba(237, 160, 160, 0.432);
+
+}
+.blockword2 {
+    cursor: not-allowed;
+    background-color: rgba(138, 234, 106, 0.432);
+
+}
+
+
+.dropbtn {
+    background-color: rgba(255, 255, 255, 0.79);
+    border-radius: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(245, 188, 188, 0.579);
+    color: white;
+}
+
+.word {
+    direction: rtl;
+}
+
+
+.again {
+    background-color: rgba(235, 204, 149, 0.845);
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    bottom:5% ;
+    left: 45%;
+    
+
+}
+
+.win{
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-image: url(https://a7.org/files/pictures/781x439/1010611.jpg);
+    height: 300px;
+    width: 300px;
+    z-index: 100;
+    top: 25%;
+    left: 25%;
+}

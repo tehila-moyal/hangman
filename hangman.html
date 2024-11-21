@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hangman</title>
+    <link rel="stylesheet" href="./css/hangman.css">
+</head>
+<body>
+    <div class="win hide">
+        <button class="x">X</button>
+        <h1>you won!!! </h1>
+    </div>
+    <div class="start">
+        <h1>hangman</h1>
+        <p>
+            The object of hangman is to guess the secret word before the stick figure is hung. Players take turns selecting letters to narrow the word down. Players can take turns or work together. Gameplay continues until the players guess the word or they run out of guesses and the stick figure is hung.</p>
+
+        <div class="dropdown">
+            <button class="dropbtn"><h3>choose language </h3></button>
+            <div class="dropdown-content">
+                <input type="radio" name="language" value="hebrew" id="hebrew">
+                <label for="hebrew" >עברית</label>
+                <br>
+                <input type="radio" name="language" value="english" id="english">
+                <label for="english" >english</label>
+                <br>
+                <button id="startbtn"> start</button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="game hide">
+
+        <div class="theMan">
+            <div class="poll2 man hide"></div>
+            <div class="poll man hide"></div>
+            <div class="poll3 man hide "></div>
+            <div class="poll1 man hide"></div>
+        <div class="head man hide"></div>
+        <div class="hend1  man hide"></div>
+        <div class="hend2  man hide"></div>
+        <div class="body1 man hide"></div>
+        <div class="leg1  man hide"></div>
+        <div class="leg2  man hide"></div>
+    </div>
+    <div class="sentence">
+    </div> 
+    <div class="keybord">
+    </div>
+    <div class="wrong"></div>
+    <button class="again">start over</button>
+</div>
+    <script src="./js/hangman.js"></script>
+    <script src="./js/words.js"></script>
+
+    
+</body>
+</html>
